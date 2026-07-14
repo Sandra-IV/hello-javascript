@@ -58,7 +58,7 @@ let b = 20
 
 console.log(a < b) // Menor que
 
-console.log(a >= 8) // Menor o igual que
+console.log(a >= 8) // Mayor o igual que
 
 console.log(b == "20") // Igualdad por valor
 
