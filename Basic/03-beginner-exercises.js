@@ -5,201 +5,137 @@ Vídeo: https://youtu.be/1glVfFxj8a4?t=4733
 
 // 1. Escribe un comentario en una línea
 
-    // Escribo un comentario en una línea.
+    //Escribo un comentario en una línea!
 
 // 2. Escribe un comentario en varias líneas
 
     /* Escribo un
     comentario en
-    varias líneas */
+    varias líneas!*/
 
 // 3. Declara variables con valores asociados a todos los datos de tipo primitivos
 
-    //String
-    let cadenaDeTexto = "String" 
+    //string
+    let texto = "Hello, World!"
 
-    // Numero
-    let number = 84  
+    //number
+    let age = 22
+    let age2 = 22.4
 
-    let numero = 1.9
+    //boolean
+    let isAnimal = false
+    let isHuman = true
 
-    //Booleano
-    let isNew = true   
-    let isOld = false
+    //undefined
+    let newThing = undefined
 
-    //Undefined
-    let undefinedObject = undefined    
-
-    //Null
-    let newObject = null        
+    //null
+    let newObject = null
 
     //Symbol
-    let flag = Symbol("blue")     
+    let warning = Symbol("red")
 
     //BigInt
-    let amount = BigInt(329412934712734917239)     
-    let amount2 = 312849173298471937459n
+    let amount = BigInt(13957834582348528)
+    let amount2 = 90000000000000000n
 
 // 4. Imprime por consola el valor de todas las variables
 
-    console.log(cadenaDeTexto)
-
-    console.log(number)
-    console.log(numero)
-
-    console.log(isNew)
-    console.log(isOld)
-
-    console.log(undefinedObject)
-
-    console.log(newObject)
-
-    console.log(flag)
-
-    console.log(amount)
-    console.log(amount2)
+console.log(texto)
+console.log(age)
+console.log(age2)
+console.log(isAnimal)
+console.log(isHuman)
+console.log(newThing)
+console.log(newObject)
+console.log(warning)
+console.log(amount)
+console.log(amount2)
 
 
 // 5. Imprime por consola el tipo de todas las variables
 
-    console.log(typeof cadenaDeTexto)
-
-    console.log(typeof number)
-    console.log(typeof numero)
-
-    console.log(typeof isNew)
-    console.log(typeof isOld)
-
-    console.log(typeof undefinedObject)
-
-    console.log(typeof newObject)
-
-    console.log(typeof flag)
-
-    console.log(typeof amount)
-    console.log(typeof amount2)
+console.log(typeof texto)
+console.log(typeof age)
+console.log(typeof isAnimal)
+console.log(typeof isHuman)
+console.log(typeof newThing)
+console.log(typeof newObject)
+console.log(typeof warning)
+console.log(typeof amount)
+console.log(typeof amount2)
 
 // 6. A continuación, modifica los valores de las variables por otros del mismo tipo
 
-    //string
-    cadenaDeTexto = "Otro texto"
-
-    //number
-    number = 22
-    numero = 89.3
-
-    //boolean
-    isNew = false
-    isOld = true
-
-    //undefined
-    undefinedObject = undefined
-
-    //null
-    newObject = null
-
-    //Symbol
-    flag = Symbol("red")
-
-    //BigInt
-    amount = BigInt(10000000000000000)
-    amount2 = 8000000000000000000n
+texto = "What's up, World!"
+age = 104
+isAnimal = true
+isHuman = false
+newThing = undefined
+newObject = null
+warning = Symbol("orange")
+amount = BigInt(1000000000000000000)
+amount2 = 88888888888888888888888n
 
 // 7. A continuación, modifica los valores de las variables por otros de distinto tipo
 
-    cadenaDeTexto = BigInt(900001000)
-
-    number = false
-    numero = true
-
-    isNew = undefined
-    isOld = null
-
-    undefinedObject = 93012910138494957n
-
-    newObject = Symbol("yellow")
-
-    flag = "Switzerland"
-
-    amount = 909
-    amount2 = 64321.10
+texto = false
+age = "500 dólares"
+isAnimal = 48
+isHuman = null
+newThing = Symbol("yellow")
+newObject = BigInt(90909090909090909090)
+warning = 333333333333333333n
+amount = undefined
+amount2 = true
 
 // 8. Declara constantes con valores asociados a todos los tipos de datos primitivos
 
-    //string
-    const texto = "Hello, World!"
+//string
+const message = "Hola Mundo!"
 
-    //number
-    const age = 22
-    const money = 3000.10
+//number
+const year = 2003
+const cents = 15.90
 
-    //boolean
-    const isTruth = true
-    const isLie = false
+//boolean
+const isNew = true
+const isOld = false
 
-    //undefined
-    const somethingIdk = undefined
+//undefined
+const newElement = undefined
 
-    //null
-    const someObject = null
+//null
+const newFactor = null
 
-    //symbol
-    const color = Symbol("green")
+//symbol
+const green = Symbol("correct")
 
-    //bigInt
-    const years = BigInt(14000010002090090900)
-    const years2 = 8899999955555123n
+//bigInt
+const money = BigInt(200000000000000000)
+const money2 = 519090867766676777677677767n
 
 // 9. A continuación, modifica los valores de las constantes
 
-    //string
-    texto = "Hello, Universe!"
-
-    //number
-    age = 80
-    money = 9000.40
-
-    //boolean
-    isTruth = false
-    isLie = true
-
-    //undefined
-    somethingIdk = undefined
-
-    //null
-    someObject = null
-
-    //symbol
-    color = Symbol("orange")
-
-    //bigInt
-    years = BigInt(50000000000000000000000)
-    years2 = 80000000000000000001n
+message = "Hey JavaScript!"
+year = 1945
+cents = 20.88
+isNew = false
+isOld = true
+newElement = undefined
+newFactor = null
+green = Symbol("incorrect")
+money = BigInt(600000000000)
+money2 = 1111111111111111111111111111111n
 
 // 10. Comenta las líneas que produzcan algún tipo de error al ejecutarse
 
-    // Las líneas de const del ejercicio 9 porque ya tenían un valor definido en el ejercicio 8?
-    
-    //string
-    //texto = "Hello, Universe!" --> da error
-
-    //number
-    //age = 80 --> da error
-    //money = 9000.40--> da error
-
-    //boolean
-    //isTruth = false --> da error
-    //isLie = true --> da error
-
-    //undefined
-    //somethingIdk = undefined --> da error
-
-    //null
-    //someObject = null --> da error
-
-    //symbol
-    //color = Symbol("orange") --> da error
-
-    //bigInt
-    //years = BigInt(50000000000000000000000) --> da error
-    //years2 = 80000000000000000001n --> da error
+// message = "Hey JavaScript!" --ERROR-- Es una variable constante, por ende no se puede cambiar su valor.
+// year = 1945 --ERROR-- Es una variable constante, por ende no se puede cambiar su valor.
+// isNew = false --ERROR-- Es una variable constante, por ende no se puede cambiar su valor.
+// isOld = true --ERROR-- Es una variable constante, por ende no se puede cambiar su valor.
+// newElement = undefined --ERROR-- No llega a ejecutarse por lo anterior.
+// newFactor = null --ERROR-- No llega a ejecutarse por lo anterior.
+// green = Symbol("incorrect") --ERROR-- Es una variable constante, por ende no se puede cambiar su valor.
+// money = BigInt(600000000000) --ERROR-- Es una variable constante, por ende no se puede cambiar su valor.
+// money2 = 1111111111111111111111111111111n --ERROR-- Es una variable constante, por ende no se puede cambiar su valor.
