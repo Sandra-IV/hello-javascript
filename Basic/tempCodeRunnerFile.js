@@ -1,1 +1,1 @@
-saludo
+console.log(c /= a)
